@@ -9,11 +9,10 @@
 
 We provide PyTorch implementations for both unpaired and paired image-to-image translation.
 
-The code was written by [flurryunicorn](https://github.com/flurryunicorn).
 
 This PyTorch implementation produces results comparable to or better than our original Torch software. If you would like to reproduce the same results as in the papers, check out the original [CycleGAN Torch](https://github.com/junyanz/CycleGAN) and [pix2pix Torch](https://github.com/phillipi/pix2pix) code in Lua/Torch.
 
-**Note**: The current software works well with PyTorch 1.4. Check out the older [branch](https://github.com/flurryunicorn/CycleGAN-and-pix2pix/tree/pytorch0.3.1) that supports PyTorch 0.1-0.3.
+
 
 You may find useful information in [training/test tips](docs/tips.md) and [frequently asked questions](docs/qa.md). To implement custom models and datasets, check out our [templates](#custom-model-and-dataset). To help users better understand and adapt our codebase, we provide an [overview](docs/overview.md) of the code structure of this repository.
 
@@ -22,7 +21,7 @@ You may find useful information in [training/test tips](docs/tips.md) and [frequ
 <img src="https://phillipi.github.io/pix2pix/images/teaser_v3.png" width="800px"/>
 
 
-**[EdgesCats Demo](https://affinelayer.com/pixsrv/) | [pix2pix-tensorflow](https://github.com/affinelayer/pix2pix-tensorflow) | by [Christopher Hesse](https://twitter.com/christophrhesse)**
+**[EdgesCats Demo](https://affinelayer.com/pixsrv/) | [pix2pix-tensorflow](https://github.com/affinelayer/pix2pix-tensorflow)
 
 <img src='imgs/edges2cats.jpg' width="400px"/>
 
